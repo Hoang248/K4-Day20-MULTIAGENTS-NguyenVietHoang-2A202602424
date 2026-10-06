@@ -1,0 +1,3 @@
+Command: docker run (publication checkout mounted read-only) day20-lab:runtime python -m pytest -p no:cacheprovider
+Result: 29 passed in 16.27s
+This was an offline validation of the publication checkout; no API call was made.

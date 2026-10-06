@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-10-06T05:31:19.776064+00:00",
+  "action": "run",
+  "model": "gpt-6-luna",
+  "api": "responses",
+  "reasoning_effort": "medium",
+  "output_version": "v0",
+  "temperature": null,
+  "max_output_tokens": 8192,
+  "recursion_limit": 60,
+  "python": "3.12.15",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+  "dependencies": {
+    "deepagents": "0.7.21",
+    "langchain-openai": "1.6.7",
+    "langchain-core": "1.6.6",
+    "openai": "3.24.0"
+  },
+  "condition": "baseline",
+  "results_dir": "results",
+  "runs": [
+    {
+      "task": "code-eval",
+      "score": 0.09090909090909091,
+      "tokens": {
+        "input": 18197,
+        "output": 8915,
+        "total": 27112
+      },
+      "seconds": 74.0,
+      "error": null
+    },
+    {
+      "task": "data-eval",
+      "score": 0.5555555555555556,
+      "tokens": {
+        "input": 21900,
+        "output": 1667,
+        "total": 23567
+      },
+      "seconds": 29.0,
+      "error": null
+    },
+    {
+      "task": "logs-eval",
+      "score": 0.6,
+      "tokens": {
+        "input": 23937,
+        "output": 1260,
+        "total": 25197
+      },
+      "seconds": 20.4,
+      "error": null
+    }
+  ]
+}

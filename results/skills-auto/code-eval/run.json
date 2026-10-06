@@ -1,0 +1,79 @@
+{
+  "task": "code-eval",
+  "condition": "skills-auto",
+  "role": "eval",
+  "error": null,
+  "timestamp": "2026-10-06T05:45:14.825133+00:00",
+  "skills_sha256": "978d74420f0773b2bd858d438d2d504fd52476de33a272dff38aff3feae36ccc",
+  "seconds": 75.3,
+  "tokens": {
+    "input": 70879,
+    "output": 3556,
+    "total": 74435
+  },
+  "tool_calls": 25,
+  "subagent_calls": 0,
+  "skills_read": 1,
+  "skills_modified": false,
+  "final_message": "Fixed duration parsing for all documented formats, corrected billable-block rounding and negative-minute validation, and made `add_slot` return a fresh list. Added regression tests and Unreleased changelog entries. The full test suite passes.\n\nChanged: `bookings/timeutil.py`, `bookings/billing.py`, `bookings/schedule.py`, `bookings/calendar_export.py`, `tests/test_regressions.py`, and `CHANGELOG.md`.",
+  "score": 0.9090909090909091,
+  "passed": 10,
+  "total": 11,
+  "checks": [
+    {
+      "name": "visible_suite_passes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tests_not_modified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "parse_duration_all_formats",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "other_caller_fixed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "billable_blocks_round_up",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "add_slot_no_shared_state",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "negative_minutes_rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rule_type_hints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rule_regression_tests",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rule_changelog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rule_version_bump",
+      "passed": false,
+      "detail": ""
+    }
+  ]
+}

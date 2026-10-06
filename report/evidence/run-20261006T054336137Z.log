@@ -1,0 +1,3 @@
+﻿subagents code-eval: 7/11 tokens=300959 calls=23 seconds=331.6 error=None
+subagents data-eval: 5/9 tokens=66165 calls=7 seconds=55.1 error=None
+subagents logs-eval: 6/10 tokens=72187 calls=6 seconds=85.0 error=None

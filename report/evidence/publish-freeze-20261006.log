@@ -1,0 +1,2 @@
+Command: docker run (publication checkout mounted read-only) day20-lab:runtime python scripts/verify_freeze.py
+checked 6 runs of skill conditions: OK

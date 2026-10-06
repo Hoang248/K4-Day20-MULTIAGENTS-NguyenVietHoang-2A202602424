@@ -1,0 +1,1546 @@
+{
+  "timestamp": "2026-10-06T05:35:38.848214+00:00",
+  "action": "run",
+  "model": "gpt-6-luna",
+  "api": "responses",
+  "reasoning_effort": "medium",
+  "output_version": "v0",
+  "temperature": null,
+  "max_output_tokens": 8192,
+  "recursion_limit": 60,
+  "python": "3.12.15",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+  "dependencies": {
+    "deepagents": "0.7.21",
+    "langchain-openai": "1.6.7",
+    "langchain-core": "1.6.6",
+    "openai": "3.24.0"
+  },
+  "diagnostics": {
+    "code-eval": [
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac488bb3c2087d0ba3e941c453cbe0f",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2568,
+          "output_tokens": 85,
+          "total_tokens": 2653,
+          "input_token_details": {
+            "cache_creation": 107,
+            "cache_read": 2458
+          },
+          "output_token_details": {
+            "reasoning": 22
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_079315e457ab2f80006ac488bfcd6487d0900d560df9aa0e3a",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2037,
+          "output_tokens": 18,
+          "total_tokens": 2055,
+          "input_token_details": {
+            "cache_creation": 43,
+            "cache_read": 1991
+          },
+          "output_token_details": {
+            "reasoning": 0
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_079315e457ab2f80006ac488c2529887d081b36c8cf06ae9a4",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2090,
+          "output_tokens": 126,
+          "total_tokens": 2216,
+          "input_token_details": {
+            "cache_creation": 53,
+            "cache_read": 2034
+          },
+          "output_token_details": {
+            "reasoning": 20
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_079315e457ab2f80006ac488c6135c87d097188f554f439542",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2374,
+          "output_tokens": 202,
+          "total_tokens": 2576,
+          "input_token_details": {
+            "cache_creation": 284,
+            "cache_read": 2087
+          },
+          "output_token_details": {
+            "reasoning": 11
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_079315e457ab2f80006ac488cb01e487d0976b93ef0b0685d1",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3192,
+          "output_tokens": 164,
+          "total_tokens": 3356,
+          "input_token_details": {
+            "cache_creation": 818,
+            "cache_read": 2371
+          },
+          "output_token_details": {
+            "reasoning": 131
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_079315e457ab2f80006ac488cfcec487d0a96fbd03a85b8a64",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3381,
+          "output_tokens": 42,
+          "total_tokens": 3423,
+          "input_token_details": {
+            "cache_creation": 189,
+            "cache_read": 3189
+          },
+          "output_token_details": {
+            "reasoning": 10
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_079315e457ab2f80006ac488d4fea887d0ad35089317841378",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3950,
+          "output_tokens": 830,
+          "total_tokens": 4780,
+          "input_token_details": {
+            "cache_creation": 569,
+            "cache_read": 3378
+          },
+          "output_token_details": {
+            "reasoning": 378
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac488dcfd6487d09f47980fb6b9263e",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3109,
+          "output_tokens": 67,
+          "total_tokens": 3176,
+          "input_token_details": {
+            "cache_creation": 541,
+            "cache_read": 2565
+          },
+          "output_token_details": {
+            "reasoning": 12
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac488e0aa7c87d0867e11986c99c45e",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3275,
+          "output_tokens": 186,
+          "total_tokens": 3461,
+          "input_token_details": {
+            "cache_creation": 166,
+            "cache_read": 3106
+          },
+          "output_token_details": {
+            "reasoning": 0
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac488e4a6dc87d0884dabfe4d1bf44e",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4094,
+          "output_tokens": 377,
+          "total_tokens": 4471,
+          "input_token_details": {
+            "cache_creation": 819,
+            "cache_read": 3272
+          },
+          "output_token_details": {
+            "reasoning": 223
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac488eba1d487d085325873f76bc535",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2131,
+          "output_tokens": 36,
+          "total_tokens": 2167,
+          "input_token_details": {
+            "cache_creation": 2128,
+            "cache_read": 0
+          },
+          "output_token_details": {
+            "reasoning": 14
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac488ed7e7c87d0a919ed8bc8fe2f35",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2220,
+          "output_tokens": 22,
+          "total_tokens": 2242,
+          "input_token_details": {
+            "cache_creation": 89,
+            "cache_read": 2128
+          },
+          "output_token_details": {
+            "reasoning": 0
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac488f1205887d0a44387f889d9e63d",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2315,
+          "output_tokens": 183,
+          "total_tokens": 2498,
+          "input_token_details": {
+            "cache_creation": 95,
+            "cache_read": 2217
+          },
+          "output_token_details": {
+            "reasoning": 23
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac488f49fc887d0a302d8d317bc966a",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3066,
+          "output_tokens": 152,
+          "total_tokens": 3218,
+          "input_token_details": {
+            "cache_creation": 751,
+            "cache_read": 2312
+          },
+          "output_token_details": {
+            "reasoning": 46
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac488f7f92c87d0b08de1787172c8ed",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3355,
+          "output_tokens": 1409,
+          "total_tokens": 4764,
+          "input_token_details": {
+            "cache_creation": 289,
+            "cache_read": 3063
+          },
+          "output_token_details": {
+            "reasoning": 876
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac489094b1487d0aa7e40c1540b532f",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4276,
+          "output_tokens": 84,
+          "total_tokens": 4360,
+          "input_token_details": {
+            "cache_creation": 921,
+            "cache_read": 3352
+          },
+          "output_token_details": {
+            "reasoning": 50
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac4890c127c87d0b9aca1c2d94849f3",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4681,
+          "output_tokens": 383,
+          "total_tokens": 5064,
+          "input_token_details": {
+            "cache_creation": 405,
+            "cache_read": 4273
+          },
+          "output_token_details": {
+            "reasoning": 308
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac48912710887d0b025f794908de738",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 5100,
+          "output_tokens": 92,
+          "total_tokens": 5192,
+          "input_token_details": {
+            "cache_creation": 419,
+            "cache_read": 4678
+          },
+          "output_token_details": {
+            "reasoning": 58
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac48915992887d08f43b283afb600ff",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 5277,
+          "output_tokens": 80,
+          "total_tokens": 5357,
+          "input_token_details": {
+            "cache_creation": 177,
+            "cache_read": 5097
+          },
+          "output_token_details": {
+            "reasoning": 41
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac48918b42487d0ac9091948d6b0acf",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 5387,
+          "output_tokens": 441,
+          "total_tokens": 5828,
+          "input_token_details": {
+            "cache_creation": 110,
+            "cache_read": 5274
+          },
+          "output_token_details": {
+            "reasoning": 140
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac4891f208487d0beb0d19e489c9781",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 5858,
+          "output_tokens": 192,
+          "total_tokens": 6050,
+          "input_token_details": {
+            "cache_creation": 471,
+            "cache_read": 5384
+          },
+          "output_token_details": {
+            "reasoning": 0
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac48922b18487d0adf063b2b2888f83",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 6080,
+          "output_tokens": 580,
+          "total_tokens": 6660,
+          "input_token_details": {
+            "cache_creation": 222,
+            "cache_read": 5855
+          },
+          "output_token_details": {
+            "reasoning": 181
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac4892bab2c87d084c8aa56fcd9d317",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7049,
+          "output_tokens": 51,
+          "total_tokens": 7100,
+          "input_token_details": {
+            "cache_creation": 969,
+            "cache_read": 6077
+          },
+          "output_token_details": {
+            "reasoning": 17
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac4892e3cb487d09f26424139d41497",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7185,
+          "output_tokens": 78,
+          "total_tokens": 7263,
+          "input_token_details": {
+            "cache_creation": 136,
+            "cache_read": 7046
+          },
+          "output_token_details": {
+            "reasoning": 37
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac48931e3f087d08d62de50d7f82b3a",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7293,
+          "output_tokens": 118,
+          "total_tokens": 7411,
+          "input_token_details": {
+            "cache_creation": 108,
+            "cache_read": 7182
+          },
+          "output_token_details": {
+            "reasoning": 12
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac48934e6a887d0ad28cc0f99c95510",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 8004,
+          "output_tokens": 409,
+          "total_tokens": 8413,
+          "input_token_details": {
+            "cache_creation": 711,
+            "cache_read": 7290
+          },
+          "output_token_details": {
+            "reasoning": 10
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac4893cd13c87d0ab2eafab1598c5c2",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 8452,
+          "output_tokens": 692,
+          "total_tokens": 9144,
+          "input_token_details": {
+            "cache_creation": 448,
+            "cache_read": 8001
+          },
+          "output_token_details": {
+            "reasoning": 664
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac4894ab2ec87d0bfc258280dcff176",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 10694,
+          "output_tokens": 768,
+          "total_tokens": 11462,
+          "input_token_details": {
+            "cache_creation": 2242,
+            "cache_read": 8449
+          },
+          "output_token_details": {
+            "reasoning": 282
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac48954061887d0b0d60cee2d657b51",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 11492,
+          "output_tokens": 393,
+          "total_tokens": 11885,
+          "input_token_details": {
+            "cache_creation": 798,
+            "cache_read": 10691
+          },
+          "output_token_details": {
+            "reasoning": 21
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06e541f7be0bb10c006ac4895ad7ac87d08c81aa92743e05fb",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 11924,
+          "output_tokens": 150,
+          "total_tokens": 12074,
+          "input_token_details": {
+            "cache_creation": 432,
+            "cache_read": 11489
+          },
+          "output_token_details": {
+            "reasoning": 0
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac48960671887d0acff84e77d4c83f9",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4627,
+          "output_tokens": 148,
+          "total_tokens": 4775,
+          "input_token_details": {
+            "cache_creation": 533,
+            "cache_read": 4091
+          },
+          "output_token_details": {
+            "reasoning": 18
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac489652fec87d0ab2870cbee29a591",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 5584,
+          "output_tokens": 369,
+          "total_tokens": 5953,
+          "input_token_details": {
+            "cache_creation": 957,
+            "cache_read": 4624
+          },
+          "output_token_details": {
+            "reasoning": 337
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac4896da20c87d0b618e1f92ea5abb3",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 5987,
+          "output_tokens": 151,
+          "total_tokens": 6138,
+          "input_token_details": {
+            "cache_creation": 403,
+            "cache_read": 5581
+          },
+          "output_token_details": {
+            "reasoning": 68
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac489713fc487d09e6754ac74ee14e4",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2065,
+          "output_tokens": 40,
+          "total_tokens": 2105,
+          "input_token_details": {
+            "cache_creation": 63,
+            "cache_read": 1999
+          },
+          "output_token_details": {
+            "reasoning": 18
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac48973315087d091a3b14d33898aa6",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2158,
+          "output_tokens": 216,
+          "total_tokens": 2374,
+          "input_token_details": {
+            "cache_creation": 93,
+            "cache_read": 2062
+          },
+          "output_token_details": {
+            "reasoning": 53
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac4897703f487d09646c600bf16cd0a",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3075,
+          "output_tokens": 49,
+          "total_tokens": 3124,
+          "input_token_details": {
+            "cache_creation": 917,
+            "cache_read": 2155
+          },
+          "output_token_details": {
+            "reasoning": 29
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac4897978e487d0b1dabb7d84b28e9a",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3165,
+          "output_tokens": 157,
+          "total_tokens": 3322,
+          "input_token_details": {
+            "cache_creation": 90,
+            "cache_read": 3072
+          },
+          "output_token_details": {
+            "reasoning": 67
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac4897cb23087d0b64187689a78d405",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3429,
+          "output_tokens": 104,
+          "total_tokens": 3533,
+          "input_token_details": {
+            "cache_creation": 264,
+            "cache_read": 3162
+          },
+          "output_token_details": {
+            "reasoning": 30
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac489812f6887d09e14bd0107a81f47",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3854,
+          "output_tokens": 126,
+          "total_tokens": 3980,
+          "input_token_details": {
+            "cache_creation": 425,
+            "cache_read": 3426
+          },
+          "output_token_details": {
+            "reasoning": 94
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac489865ef487d0a2ae0568e0d8cdc2",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4014,
+          "output_tokens": 441,
+          "total_tokens": 4455,
+          "input_token_details": {
+            "cache_creation": 160,
+            "cache_read": 3851
+          },
+          "output_token_details": {
+            "reasoning": 406
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac4898dd5c087d0ae0536dc8f9b715f",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 5643,
+          "output_tokens": 200,
+          "total_tokens": 5843,
+          "input_token_details": {
+            "cache_creation": 1629,
+            "cache_read": 4011
+          },
+          "output_token_details": {
+            "reasoning": 165
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac48992f98087d08523a3a34ac41ff2",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 6071,
+          "output_tokens": 884,
+          "total_tokens": 6955,
+          "input_token_details": {
+            "cache_creation": 428,
+            "cache_read": 5640
+          },
+          "output_token_details": {
+            "reasoning": 862
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac489a10b1c87d08a70c01a93716271",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 6490,
+          "output_tokens": 972,
+          "total_tokens": 7462,
+          "input_token_details": {
+            "cache_creation": 419,
+            "cache_read": 6068
+          },
+          "output_token_details": {
+            "reasoning": 700
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac489ae023487d0beadbd09b1ca3a18",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7048,
+          "output_tokens": 1278,
+          "total_tokens": 8326,
+          "input_token_details": {
+            "cache_creation": 558,
+            "cache_read": 6487
+          },
+          "output_token_details": {
+            "reasoning": 1217
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_06d79a7f99a3f6c2006ac489bf43a487d0a59bae911ce46063",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 8153,
+          "output_tokens": 1693,
+          "total_tokens": 9846,
+          "input_token_details": {
+            "cache_creation": 1105,
+            "cache_read": 7045
+          },
+          "output_token_details": {
+            "reasoning": 1368
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac489d652e887d0a807d862a6910dfc",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 6467,
+          "output_tokens": 486,
+          "total_tokens": 6953,
+          "input_token_details": {
+            "cache_creation": 480,
+            "cache_read": 5984
+          },
+          "output_token_details": {
+            "reasoning": 449
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac489df8d3087d09d337d5768700246",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 6998,
+          "output_tokens": 385,
+          "total_tokens": 7383,
+          "input_token_details": {
+            "cache_creation": 531,
+            "cache_read": 6464
+          },
+          "output_token_details": {
+            "reasoning": 214
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac489e9ac7c87d084dc0389f58f8f71",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7412,
+          "output_tokens": 98,
+          "total_tokens": 7510,
+          "input_token_details": {
+            "cache_creation": 414,
+            "cache_read": 6995
+          },
+          "output_token_details": {
+            "reasoning": 0
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac489ec830487d0bfc3f7b801775841",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7540,
+          "output_tokens": 110,
+          "total_tokens": 7650,
+          "input_token_details": {
+            "cache_creation": 128,
+            "cache_read": 7409
+          },
+          "output_token_details": {
+            "reasoning": 19
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac489effeb487d0a84e0d59b28c7ddf",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7680,
+          "output_tokens": 146,
+          "total_tokens": 7826,
+          "input_token_details": {
+            "cache_creation": 140,
+            "cache_read": 7537
+          },
+          "output_token_details": {
+            "reasoning": 39
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac489f3563c87d0904fd08cf128377e",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7856,
+          "output_tokens": 74,
+          "total_tokens": 7930,
+          "input_token_details": {
+            "cache_creation": 176,
+            "cache_read": 7677
+          },
+          "output_token_details": {
+            "reasoning": 0
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac489f60b2487d086b949f240ae9b23",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7960,
+          "output_tokens": 448,
+          "total_tokens": 8408,
+          "input_token_details": {
+            "cache_creation": 104,
+            "cache_read": 7853
+          },
+          "output_token_details": {
+            "reasoning": 43
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_03fe5f44db872638006ac489fe0f2087d092a303f005179cf8",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 8442,
+          "output_tokens": 347,
+          "total_tokens": 8789,
+          "input_token_details": {
+            "cache_creation": 482,
+            "cache_read": 7957
+          },
+          "output_token_details": {
+            "reasoning": 243
+          }
+        }
+      }
+    ],
+    "data-eval": [
+      {
+        "metadata": {
+          "id": "resp_062da65ba370377a006ac48a06c9a087d09886ff1065015ffd",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2677,
+          "output_tokens": 100,
+          "total_tokens": 2777,
+          "input_token_details": {
+            "cache_creation": 216,
+            "cache_read": 2458
+          },
+          "output_token_details": {
+            "reasoning": 38
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_062da65ba370377a006ac48a09a84887d083f0771067b1430f",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2958,
+          "output_tokens": 151,
+          "total_tokens": 3109,
+          "input_token_details": {
+            "cache_creation": 281,
+            "cache_read": 2674
+          },
+          "output_token_details": {
+            "reasoning": 43
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_010c23fe7e7fb2a1006ac48a0d7ea487d08670fc23409df6eb",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2082,
+          "output_tokens": 73,
+          "total_tokens": 2155,
+          "input_token_details": {
+            "cache_creation": 88,
+            "cache_read": 1991
+          },
+          "output_token_details": {
+            "reasoning": 53
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_010c23fe7e7fb2a1006ac48a10003087d0bf1e9783bacff1ae",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2178,
+          "output_tokens": 102,
+          "total_tokens": 2280,
+          "input_token_details": {
+            "cache_creation": 96,
+            "cache_read": 2079
+          },
+          "output_token_details": {
+            "reasoning": 15
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_010c23fe7e7fb2a1006ac48a128edc87d0bbe4da01eac3e76c",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4181,
+          "output_tokens": 148,
+          "total_tokens": 4329,
+          "input_token_details": {
+            "cache_creation": 2003,
+            "cache_read": 2175
+          },
+          "output_token_details": {
+            "reasoning": 62
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_010c23fe7e7fb2a1006ac48a162a7487d0a1de7a3ece142cca",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7209,
+          "output_tokens": 516,
+          "total_tokens": 7725,
+          "input_token_details": {
+            "cache_creation": 3028,
+            "cache_read": 4178
+          },
+          "output_token_details": {
+            "reasoning": 164
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_010c23fe7e7fb2a1006ac48a1b637487d0b5c3b01755f22d08",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 9380,
+          "output_tokens": 392,
+          "total_tokens": 9772,
+          "input_token_details": {
+            "cache_creation": 2171,
+            "cache_read": 7206
+          },
+          "output_token_details": {
+            "reasoning": 201
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_010c23fe7e7fb2a1006ac48a2055f887d0b00629707cad78b6",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 10404,
+          "output_tokens": 938,
+          "total_tokens": 11342,
+          "input_token_details": {
+            "cache_creation": 1024,
+            "cache_read": 9377
+          },
+          "output_token_details": {
+            "reasoning": 511
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_062da65ba370377a006ac48a2a12bc87d09f4191582daa319f",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3540,
+          "output_tokens": 60,
+          "total_tokens": 3600,
+          "input_token_details": {
+            "cache_creation": 582,
+            "cache_read": 2955
+          },
+          "output_token_details": {
+            "reasoning": 29
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_062da65ba370377a006ac48a2caf6887d0a4ff9b27852a7e43",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 3742,
+          "output_tokens": 617,
+          "total_tokens": 4359,
+          "input_token_details": {
+            "cache_creation": 202,
+            "cache_read": 3537
+          },
+          "output_token_details": {
+            "reasoning": 127
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_062da65ba370377a006ac48a33870887d0bc21af5ea270f072",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4533,
+          "output_tokens": 250,
+          "total_tokens": 4783,
+          "input_token_details": {
+            "cache_creation": 791,
+            "cache_read": 3739
+          },
+          "output_token_details": {
+            "reasoning": 164
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_062da65ba370377a006ac48a37e61887d0b3e656d0bc3b02fe",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4801,
+          "output_tokens": 104,
+          "total_tokens": 4905,
+          "input_token_details": {
+            "cache_creation": 268,
+            "cache_read": 4530
+          },
+          "output_token_details": {
+            "reasoning": 72
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_062da65ba370377a006ac48a3b4c9c87d0828e06e74551b752",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4980,
+          "output_tokens": 49,
+          "total_tokens": 5029,
+          "input_token_details": {
+            "cache_creation": 179,
+            "cache_read": 4798
+          },
+          "output_token_details": {
+            "reasoning": 0
+          }
+        }
+      }
+    ],
+    "logs-eval": [
+      {
+        "metadata": {
+          "id": "resp_005a6131d1e018cc006ac48a3e68fc87d09d13fbd290f5fcf5",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2769,
+          "output_tokens": 221,
+          "total_tokens": 2990,
+          "input_token_details": {
+            "cache_creation": 308,
+            "cache_read": 2458
+          },
+          "output_token_details": {
+            "reasoning": 62
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_09e6b63ee358b837006ac48a42b8c487d09ab446930c0f148d",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2103,
+          "output_tokens": 37,
+          "total_tokens": 2140,
+          "input_token_details": {
+            "cache_creation": 109,
+            "cache_read": 1991
+          },
+          "output_token_details": {
+            "reasoning": 17
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_09e6b63ee358b837006ac48a448a2c87d08ddc6c9bc9f60255",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2164,
+          "output_tokens": 111,
+          "total_tokens": 2275,
+          "input_token_details": {
+            "cache_creation": 61,
+            "cache_read": 2100
+          },
+          "output_token_details": {
+            "reasoning": 37
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_09e6b63ee358b837006ac48a4727b887d0b8e568b123744159",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4655,
+          "output_tokens": 3796,
+          "total_tokens": 8451,
+          "input_token_details": {
+            "cache_creation": 2491,
+            "cache_read": 2161
+          },
+          "output_token_details": {
+            "reasoning": 2201
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_005a6131d1e018cc006ac48a60bd5887d087927db99d6662e6",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 4611,
+          "output_tokens": 103,
+          "total_tokens": 4714,
+          "input_token_details": {
+            "cache_creation": 1842,
+            "cache_read": 2766
+          },
+          "output_token_details": {
+            "reasoning": 29
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_005a6131d1e018cc006ac48a6321f087d0be69a69830cbf5a5",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7094,
+          "output_tokens": 909,
+          "total_tokens": 8003,
+          "input_token_details": {
+            "cache_creation": 2483,
+            "cache_read": 4608
+          },
+          "output_token_details": {
+            "reasoning": 385
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_005a6131d1e018cc006ac48a6e247c87d0b7dc551fbec5f7dd",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 8049,
+          "output_tokens": 190,
+          "total_tokens": 8239,
+          "input_token_details": {
+            "cache_creation": 955,
+            "cache_read": 7091
+          },
+          "output_token_details": {
+            "reasoning": 93
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_0745dd5add30c10a006ac48a72224887d0b5d7d62ab0f1c844",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 2079,
+          "output_tokens": 111,
+          "total_tokens": 2190,
+          "input_token_details": {
+            "cache_creation": 77,
+            "cache_read": 1999
+          },
+          "output_token_details": {
+            "reasoning": 0
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_0745dd5add30c10a006ac48a7498c487d0b2ccb0b15c06ac5f",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 6091,
+          "output_tokens": 1014,
+          "total_tokens": 7105,
+          "input_token_details": {
+            "cache_creation": 4012,
+            "cache_read": 2076
+          },
+          "output_token_details": {
+            "reasoning": 367
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_0745dd5add30c10a006ac48a8184bc87d0b4b909b683a8981f",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 7130,
+          "output_tokens": 644,
+          "total_tokens": 7774,
+          "input_token_details": {
+            "cache_creation": 1039,
+            "cache_read": 6088
+          },
+          "output_token_details": {
+            "reasoning": 11
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_0745dd5add30c10a006ac48a87dbb487d08372c7533ed701fb",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 9310,
+          "output_tokens": 448,
+          "total_tokens": 9758,
+          "input_token_details": {
+            "cache_creation": 2180,
+            "cache_read": 7127
+          },
+          "output_token_details": {
+            "reasoning": 226
+          }
+        }
+      },
+      {
+        "metadata": {
+          "id": "resp_005a6131d1e018cc006ac48a90159c87d08fcff634717bd125",
+          "status": "completed",
+          "model_name": "gpt-6-luna"
+        },
+        "usage": {
+          "input_tokens": 8465,
+          "output_tokens": 83,
+          "total_tokens": 8548,
+          "input_token_details": {
+            "cache_creation": 416,
+            "cache_read": 8046
+          },
+          "output_token_details": {
+            "reasoning": 35
+          }
+        }
+      }
+    ]
+  },
+  "condition": "subagents",
+  "results_dir": "results",
+  "runs": [
+    {
+      "task": "code-eval",
+      "score": 0.6363636363636364,
+      "tokens": {
+        "input": 283627,
+        "output": 17332,
+        "total": 300959
+      },
+      "seconds": 331.6,
+      "error": null
+    },
+    {
+      "task": "data-eval",
+      "score": 0.5555555555555556,
+      "tokens": {
+        "input": 62665,
+        "output": 3500,
+        "total": 66165
+      },
+      "seconds": 55.1,
+      "error": null
+    },
+    {
+      "task": "logs-eval",
+      "score": 0.6,
+      "tokens": {
+        "input": 64520,
+        "output": 7667,
+        "total": 72187
+      },
+      "seconds": 85.0,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "task": "code-eval",
+  "condition": "subagents",
+  "role": "eval",
+  "error": null,
+  "timestamp": "2026-10-06T05:35:40.535164+00:00",
+  "skills_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seconds": 331.6,
+  "tokens": {
+    "input": 283627,
+    "output": 17332,
+    "total": 300959
+  },
+  "tool_calls": 23,
+  "subagent_calls": 3,
+  "skills_read": 0,
+  "skills_modified": false,
+  "final_message": "Updated four source files:\n\n- `bookings/timeutil.py` parses all documented duration formats and rejects malformed values.\n- `bookings/billing.py` rounds partial blocks up and rejects negative minutes and non-positive block sizes.\n- `bookings/schedule.py` returns a fresh list from `add_slot`, avoiding shared state.\n- `bookings/calendar_export.py` clarifies that `slot_end` does not wrap at midnight.\n\nThe full test suite passes: **3 passed**.",
+  "score": 0.6363636363636364,
+  "passed": 7,
+  "total": 11,
+  "checks": [
+    {
+      "name": "visible_suite_passes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tests_not_modified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "parse_duration_all_formats",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "other_caller_fixed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "billable_blocks_round_up",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "add_slot_no_shared_state",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "negative_minutes_rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rule_type_hints",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_regression_tests",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_changelog",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_version_bump",
+      "passed": false,
+      "detail": ""
+    }
+  ]
+}

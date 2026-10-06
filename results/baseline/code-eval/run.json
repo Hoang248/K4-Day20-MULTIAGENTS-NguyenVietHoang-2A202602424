@@ -1,0 +1,79 @@
+{
+  "task": "code-eval",
+  "condition": "baseline",
+  "role": "eval",
+  "error": null,
+  "timestamp": "2026-10-06T05:31:20.666282+00:00",
+  "skills_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seconds": 74.0,
+  "tokens": {
+    "input": 18197,
+    "output": 8915,
+    "total": 27112
+  },
+  "tool_calls": 11,
+  "subagent_calls": 0,
+  "skills_read": 0,
+  "skills_modified": false,
+  "final_message": "",
+  "score": 0.09090909090909091,
+  "passed": 1,
+  "total": 11,
+  "checks": [
+    {
+      "name": "visible_suite_passes",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "tests_not_modified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "parse_duration_all_formats",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "other_caller_fixed",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "billable_blocks_round_up",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "add_slot_no_shared_state",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "negative_minutes_rejected",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_type_hints",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_regression_tests",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_changelog",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_version_bump",
+      "passed": false,
+      "detail": ""
+    }
+  ]
+}

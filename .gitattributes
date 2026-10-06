@@ -1,5 +1,5 @@
-tasks/** text eol=lf
-tests/** text eol=lf
+tasks/** -text
+tests/** -text
 src/** text eol=lf
 skills/auto/** text eol=lf
 results/** -text

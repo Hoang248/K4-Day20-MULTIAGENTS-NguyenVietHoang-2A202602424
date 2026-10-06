@@ -1,0 +1,6 @@
+﻿skills-auto code-eval: 10/11 tokens=74435 calls=25 seconds=75.3 error=None
+skills-auto code-learn: 10/10 tokens=90112 calls=21 seconds=78.8 error=None
+skills-auto data-eval: 6/9 tokens=48009 calls=7 seconds=42.1 error=None
+skills-auto data-learn: 7/8 tokens=29686 calls=6 seconds=146.8 error=None
+skills-auto logs-eval: 9/10 tokens=30256 calls=6 seconds=25.4 error=None
+skills-auto logs-learn: 9/9 tokens=35677 calls=7 seconds=28.5 error=None

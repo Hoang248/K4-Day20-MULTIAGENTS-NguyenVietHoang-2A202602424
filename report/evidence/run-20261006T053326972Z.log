@@ -1,0 +1,3 @@
+﻿baseline code-eval: 1/11 tokens=27112 calls=11 seconds=74.0 error=None
+baseline data-eval: 5/9 tokens=23567 calls=6 seconds=29.0 error=None
+baseline logs-eval: 6/10 tokens=25197 calls=5 seconds=20.4 error=None
