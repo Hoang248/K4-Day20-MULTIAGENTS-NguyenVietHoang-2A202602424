@@ -106,7 +106,3 @@ Nộp qua kho mã nguồn (git), gồm:
 4. `report/REPORT.md` và `report/table.md`.
 
 Thang điểm chi tiết: xem `RUBRIC.md`.
-
-## 6. Kết quả bài làm
-
-Báo cáo: [report/REPORT.md](report/REPORT.md). Bảng so sánh: [report/table.md](report/table.md). Hướng dẫn tái lập GPT-6 Luna trên Linux/Docker: [report/reproduce/README.md](report/reproduce/README.md). Không commit API key.
