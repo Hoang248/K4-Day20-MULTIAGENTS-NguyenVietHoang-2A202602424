@@ -1,0 +1,6 @@
+tasks/** text eol=lf
+tests/** text eol=lf
+src/** text eol=lf
+skills/auto/** text eol=lf
+results/** -text
+report/evidence/** -text

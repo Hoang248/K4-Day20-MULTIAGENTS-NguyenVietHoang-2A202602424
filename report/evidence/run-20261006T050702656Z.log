@@ -1,0 +1,3 @@
+﻿baseline code-learn: 6/10 tokens=59277 calls=17 seconds=57.2 error=None
+baseline data-learn: 5/8 tokens=26564 calls=6 seconds=20.9 error=None
+baseline logs-learn: 6/9 tokens=26895 calls=5 seconds=18.8 error=None

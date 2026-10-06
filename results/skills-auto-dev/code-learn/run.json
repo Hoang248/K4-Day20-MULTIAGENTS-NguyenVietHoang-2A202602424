@@ -1,0 +1,74 @@
+{
+  "task": "code-learn",
+  "condition": "skills-auto",
+  "role": "learn",
+  "error": null,
+  "timestamp": "2026-10-06T05:24:57.215075+00:00",
+  "skills_sha256": "978d74420f0773b2bd858d438d2d504fd52476de33a272dff38aff3feae36ccc",
+  "seconds": 94.5,
+  "tokens": {
+    "input": 102861,
+    "output": 4749,
+    "total": 107610
+  },
+  "tool_calls": 26,
+  "subagent_calls": 0,
+  "skills_read": 1,
+  "skills_modified": false,
+  "final_message": "Fixed price parsing for thousands separators and accounting negatives, applied round-half-up discount rounding, added CSV name escaping, and corrected low-stock filtering and sorting. Added regression tests and changelog entries. The full test suite passes: **10 passed**.\n\nChanged: `workspace/inventory/pricing.py`, `workspace/inventory/export.py`, `workspace/inventory/report.py`, `workspace/tests/test_regressions.py`, and `workspace/CHANGELOG.md`.",
+  "score": 1.0,
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "name": "visible_suite_passes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tests_not_modified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "parse_price_all_formats",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "other_caller_fixed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "discount_rounds_half_up",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "low_stock_follows_docstring",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "csv_quoting_follows_docstring",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rule_type_hints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rule_regression_tests",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rule_changelog",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+usage: run_luna.py [-h] [--condition {baseline,skills-auto,subagents}]
+                   [--tasks TASKS [TASKS ...]] [--results RESULTS]
+                   [--recursion-limit RECURSION_LIMIT] [--evidence EVIDENCE]
+                   {probe,run,curate}
+run_luna.py: error: Evaluation is gated until hypotheses and freeze are recorded in report/FREEZE_READY.md.

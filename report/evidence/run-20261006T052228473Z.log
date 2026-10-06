@@ -1,0 +1,3 @@
+﻿subagents code-learn: 7/10 tokens=235290 calls=29 seconds=287.6 error=None
+subagents data-learn: 5/8 tokens=50928 calls=9 seconds=69.5 error=None
+subagents logs-learn: 6/9 tokens=76257 calls=9 seconds=73.7 error=None

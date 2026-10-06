@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-10-06T05:25:52.062487+00:00",
+  "model": "gpt-6-luna",
+  "api": "Responses",
+  "reasoning": "medium",
+  "temperature": null,
+  "max_output_tokens": 8192,
+  "recursion_limit": 60,
+  "task_input_commit": "d982034811dae6e0e42d0698131a9f33972a0bed",
+  "artifacts": [
+    {
+      "path": "src/lab/agent.py",
+      "sha256": "ed5d873fe89f52aaa6dff54be8f5fb9c4412dac14ca19511780b1bc93da658f4",
+      "bytes": 4451
+    },
+    {
+      "path": "src/lab/subagents.py",
+      "sha256": "e191810afe260822bb3c39b5f015945ec5776844e5fa9ecf4f8c0c3d8a03246b",
+      "bytes": 3058
+    },
+    {
+      "path": "src/lab/runner.py",
+      "sha256": "6fac162170c9ffb9b5c64190f575aa30cc94a337fa9de4a114a7d984c4f8f5a5",
+      "bytes": 8424
+    },
+    {
+      "path": "src/lab/curator.py",
+      "sha256": "fa327619cb8d01de6e1baf9df64dc662a1d50f6c38f3bd69b94e9df52cc6a302",
+      "bytes": 7437
+    },
+    {
+      "path": "docs/harness/native-inputs.tar",
+      "sha256": "60b81b36b184e987bc2cf9b26b18b3f3e018c1efa866eab92c97ce4365b2dec6",
+      "bytes": 133120
+    }
+  ]
+}

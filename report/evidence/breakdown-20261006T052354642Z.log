@@ -1,0 +1,4 @@
+﻿condition     role    technical  house rules  mean tokens  read a skill
+baseline      learn    18/18         0/9           36,005      0/3     
+subagents     learn    18/18         0/9          120,825      0/3     
+(evaluation rows are hidden until the git tag `freeze` exists)
